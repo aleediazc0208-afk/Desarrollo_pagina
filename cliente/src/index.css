@@ -1,3 +1,11 @@
+/* Directivas de Tailwind */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Estilos base de toda la página: fondo oscuro y texto claro */
+@layer base {
+  body {
+    @apply bg-zinc-900 text-zinc-100 antialiased;
+  }
+}

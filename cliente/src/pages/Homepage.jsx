@@ -36,7 +36,7 @@ function Homepage() {
 
     return (
         <div>
-            <h1 className="text-3x1 font-bold text-gray-800 mb-6">
+            <h1 className="text-3x1 font-bold text-orange-800 mb-6">
                 Motos en el Parqueadero
             </h1>
             {error&& (
